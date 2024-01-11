@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 body {
+  margin: 50px;
   height: 3000px;
   background-color: rgb(74, 69, 69);
 }
@@ -32,9 +33,9 @@ img {
 .container-menu {
 }
 .card {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto;
   justify-content: center;
-  align-items: center;
 }
 p {
   font-style: italic;
@@ -63,10 +64,7 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
-  .container-menu {
-    width: 500px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  .card {
+    grid-auto-columns: 300px, auto;
   }
 }

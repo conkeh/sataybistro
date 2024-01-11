@@ -34,6 +34,7 @@ img {
 .card {
   display: flex;
   justify-content: center;
+  align-items: center;
 }
 p {
   font-style: italic;
@@ -62,7 +63,10 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
-  .container {
-    width: 300px;
+  .container-menu {
+    width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

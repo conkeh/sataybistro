@@ -13,7 +13,7 @@ body {
 header {
   text-align: center;
   font-size: 100px;
-  font-weight: bold;
+  font-weight: 800;
 }
 .container {
   display: flex;
@@ -25,7 +25,7 @@ header {
   text-align: center;
   font-size: 100px;
   font-weight: 800;
-  margin-bottom: 50px;
+  margin-top: 30px;
 }
 .container-menu {
   display: flex;
@@ -42,7 +42,6 @@ ul {
 }
 .harga-satay {
   width: 900px;
-  margin-top: 30px;
   font-size: 30px;
   padding: 20px;
   background-color: rgb(8, 8, 7);
@@ -60,8 +59,12 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
+  header {
+    line-height: 1;
+  }
   .container {
     flex-direction: column;
+    margin-top: 30px;
   }
   .harga-satay {
     width: 600px;

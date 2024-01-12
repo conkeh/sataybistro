@@ -64,12 +64,10 @@ ul {
 
 @media screen and (max-width: 767px) {
   .container {
-    display: grid;
-    grid-template-columns: 1fr;
+s    grid-template-columns: 1fr;
   }
 
   .harga-satay {
-    display: grid;
     grid-template-columns: 1fr;
   }
 }

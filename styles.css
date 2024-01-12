@@ -6,7 +6,6 @@
   box-sizing: border-box;
 }
 body {
-  margin: 50px;
   height: 3000px;
   background-color: rgb(74, 69, 69);
 }
@@ -31,12 +30,10 @@ img {
   margin-bottom: 50px;
 }
 .container-menu {
-}
-.card {
-  display: grid;
-  grid-template-columns: auto;
+  display: flex;
   justify-content: center;
 }
+
 p {
   font-style: italic;
   font-size: 15px;
@@ -52,6 +49,7 @@ ul {
   padding: 20px;
   background-color: rgb(8, 8, 7);
 }
+
 .harga-satay li {
   display: flex;
   justify-content: space-between;
@@ -64,7 +62,14 @@ ul {
 }
 
 @media screen and (max-width: 767px) {
-  .card {
-    grid-auto-columns: 300px, auto;
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .harga-satay {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
   }
 }

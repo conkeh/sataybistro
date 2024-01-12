@@ -34,16 +34,16 @@ header {
 
 p {
   font-style: italic;
-  font-size: 15px;
-  padding: 20px 20px 20px 0;
+  font-size: 20px;
+  padding: 8px 0px 50px 0;
 }
 ul {
   padding-bottom: 20px;
 }
 .harga-satay {
-  width: 600px;
+  width: 900px;
   margin-top: 30px;
-  font-size: 20px;
+  font-size: 30px;
   padding: 20px;
   background-color: rgb(8, 8, 7);
 }
@@ -65,5 +65,9 @@ ul {
   }
   .harga-satay {
     width: 600px;
+    font-size: 20px;
+  }
+  p {
+    font-size: 15px;
   }
 }

@@ -9,6 +9,7 @@ body {
   margin: 10px;
   height: 3000px;
   background-color: rgb(74, 69, 69);
+  text-decoration: none;
 }
 header {
   text-align: center;

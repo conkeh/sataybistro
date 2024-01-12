@@ -41,7 +41,7 @@ ul {
   padding-bottom: 20px;
 }
 .harga-satay {
-  width: 1000px;
+  width: 600px;
   margin-top: 30px;
   font-size: 20px;
   padding: 20px;
@@ -63,8 +63,7 @@ ul {
   .container {
     flex-direction: column;
   }
-.harga-satay    {
-  width: 600px;
+  .harga-satay {
+    width: 600px;
+  }
 }
-  
-

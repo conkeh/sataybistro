@@ -6,6 +6,7 @@
   box-sizing: border-box;
 }
 body {
+  margin: 50px;
   height: 3000px;
   background-color: rgb(74, 69, 69);
 }

@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 body {
-  margin: 50px;
+  margin: 10px;
   height: 3000px;
   background-color: rgb(74, 69, 69);
 }
@@ -41,7 +41,7 @@ ul {
   padding-bottom: 20px;
 }
 .harga-satay {
-  width: 600px;
+  width: 1000px;
   margin-top: 30px;
   font-size: 20px;
   padding: 20px;
@@ -63,8 +63,8 @@ ul {
   .container {
     flex-direction: column;
   }
-
-  .harga-satay {
-    grid-template-columns: 1fr;
-  }
+.harga-satay    {
+  width: 600px;
 }
+  
+
